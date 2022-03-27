@@ -6,6 +6,7 @@
 // ----------------Reset de la pagina - fIN ------------------------
 $color-letra:rgb(226, 106, 8);
 $color-fondo:#212529;
+$color-fondo2:rgb(241, 224, 210);
 
 
 
@@ -15,4 +16,5 @@ $color-fondo:#212529;
 
 
 
-@import "headerFooter";
+@import "paginas/headerFooter";
+@import "paginas/principal";

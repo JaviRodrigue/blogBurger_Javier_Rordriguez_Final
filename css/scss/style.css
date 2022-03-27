@@ -4,6 +4,7 @@
 }
 
 .logo img {
+  margin-left: 1em;
   width: 3em;
   -webkit-transition: 1s;
   transition: 1s;
@@ -15,6 +16,22 @@
 }
 
 .navTitulo {
+  margin-left: 1em;
+}
+
+.navTitulo h1 {
+  font-size: 2.5em;
+  color: #f1c7c7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navTitulo span {
+  font-size: 1.5em;
+  color: #e26a08;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.collapse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,19 +39,230 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.navTitulo h1 {
-  color: #f1c7c7;
+.nav-item {
+  margin-left: 2.5rem;
 }
 
-.navTitulo span {
+.nav-item a {
+  font-size: 1.2rem;
+}
+
+/* -----------------------------Header - Fin------------------------------------ */
+/* -------------------------Footer - Inicio------------------------------------ */
+footer {
+  padding: 50px 0px;
+  background-image: url(/css/imagenes/fondoFoo1.svg);
+  background-size: cover;
+}
+
+.container__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+.titleFoo {
   color: #e26a08;
+}
+
+.box__footer .explicacionFoo {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box__footer h4 {
+  margin-bottom: 30px;
+  color: #e26a08;
+  font-weight: 700;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.box__footer a:hover {
+  opacity: 0.8;
+}
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+
+.box__copyright hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+}
+
+.box__footer img {
+  width: 1.8rem;
+}
+
+.jumbotron {
+  background-image: url(https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?b=1&k=20&m=1295387240&s=170667a&w=0&h=KtWYFjSBgpNgVkE3P-WKZ2F6V-VxyUBBtJIP_k8IANM=);
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumboTitulo {
+  color: #e26a08;
+  text-shadow: black 5px 0px 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumboP {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  width: 80%;
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  padding-left: 2rem;
+  margin-right: 5rem;
+}
+
+.boton .btn {
+  font-size: 2rem;
+  background-color: #e26a08;
+}
+
+.boton .btn:hover {
+  background-color: #e26a08;
+}
+
+.nos {
+  color: #e26a08;
+  background-color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.nosotros {
+  background-color: #f1e0d2;
+}
+
+.columnaTexto h3 {
+  color: white;
+}
+
+.columnaImagen .imagen {
+  height: 400px;
+  width: 100%;
+}
+
+.fila {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.fila h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.fila p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  color: black;
+}
+
+p {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
