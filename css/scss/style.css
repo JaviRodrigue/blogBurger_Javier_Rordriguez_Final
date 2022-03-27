@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -264,5 +265,115 @@ footer {
 
 p {
   color: white;
+}
+
+.hero {
+  background-image: url(/css/imagenes/Carrusel1.jpg);
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloHero {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3em;
+}
+
+.subTItuloHero {
+  color: #e26a08;
+  font-size: 2em;
+  width: 65%;
+  text-shadow: black 3px 0px 0px;
+}
+
+.boton .btn {
+  font-size: 2rem;
+  background-color: #e26a08;
+}
+
+.boton .btn:hover {
+  background-color: #e26a08;
+}
+
+.tituloReseña {
+  color: #e26a08;
+  background-color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.contenedorHamburguesa {
+  background-color: #f1e0d2;
+}
+
+.nosotros {
+  background-color: #f1e0d2;
+}
+
+.hamburguesaReseña {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hamburguesaReseña h4 {
+  color: #e26a08;
+}
+
+.hamburguesaReseña p {
+  color: white;
+  font-size: 1.2em;
+}
+
+.imagen1 {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.imagen1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
