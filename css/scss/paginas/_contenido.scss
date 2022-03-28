@@ -1,6 +1,6 @@
 // -------------------------Reseñas de Hamburguesas - Inicio-------------------------------
 .hero{
-    background-image: url(/css/imagenes/Carrusel1.jpg);
+    background-image: url(./css/imagenes/Carrusel1.jpg);
     @include principio;
 }
 .tituloHero{
@@ -69,7 +69,7 @@
 // -------------------------Reseñas de Hamburguesas - Fin-------------------------------
 // -------------------------Reseñas de Locales - Inicio-------------------------------
 .inicioHamburgueseria{
-    background-image: url(/css/imagenes/Carrusel2.jpg);
+    background-image: url(./css/imagenes/Carrusel2.jpg);
     @include principio;
 }
 .tituloHamburgueseria{
