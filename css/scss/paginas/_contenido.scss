@@ -72,4 +72,41 @@
         cursor: pointer;
     }
 }
-// -------------------------Reseñas de Hamburguesas - Inicio-------------------------------
+// -------------------------Reseñas de Hamburguesas - Fin-------------------------------
+// -------------------------Reseñas de Locales - Inicio-------------------------------
+.inicioHamburgueseria{
+    background-image: url(/css/imagenes/Carrusel2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tituloHamburgueseria{
+    color:$color-letra;
+    text-shadow: black 3px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+.subtituloHamburgueseria{
+    color:$color-letra;
+    font-size: 1.8em;
+    text-shadow: black 3px 0px 0px;
+    width: 65%;
+}
+.botonReseña{
+    background-color: $color-letra;
+    &:hover{
+        background-color: rgb(230, 152, 7);
+    }
+}
+.contenedorHamburgueseria{
+    background-color: $color-fondo2;
+}
+// -------------------------Reseñas de Locales - Fin-------------------------------
