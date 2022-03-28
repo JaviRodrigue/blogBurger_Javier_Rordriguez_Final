@@ -140,7 +140,7 @@ footer {
 }
 
 .jumbotron {
-  background-image: url(https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?b=1&k=20&m=1295387240&s=170667a&w=0&h=KtWYFjSBgpNgVkE3P-WKZ2F6V-VxyUBBtJIP_k8IANM=);
+  background-image: url(/css/imagenes/principal.jpg);
   min-height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +227,6 @@ footer {
 }
 
 .columnaImagen .imagen {
-  height: 400px;
   width: 100%;
 }
 
@@ -308,7 +307,7 @@ p {
 }
 
 .subTItuloHero {
-  color: #e26a08;
+  color: #fdd3d3;
   font-size: 2em;
   width: 65%;
   text-shadow: black 3px 0px 0px;
@@ -434,5 +433,360 @@ p {
 
 .contenedorHamburgueseria {
   background-color: #f1e0d2;
+}
+
+.tituloComentario {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  font-size: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.subtituloComentario {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  font-size: 1.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+.contenedorComentario {
+  background-image: url(/css/imagenes/fondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  height: 1000px;
+  margin-top: 10rem;
+}
+
+.contenedorFila1 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f1e0d2;
+}
+
+.contenedorFila1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f1e0d2;
+  font-size: 1.8em;
+}
+
+.formulario .seccionForm {
+  color: white;
+  margin-top: 3rem;
+}
+
+.formulario .botonComentario {
+  margin-left: 10rem;
+  background-color: #e26a08;
+}
+
+.formulario label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
+}
+
+.formulario input {
+  width: 80%;
+  margin: auto;
+}
+
+.formulario .comentarioArea {
+  width: 80%;
+  margin: auto;
+}
+
+.contenedorComentario2 {
+  background-image: url(/css/imagenes/fondo3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 950px) and (min-width: 700px) {
+  .collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .tituloHero {
+    font-size: 2.2rem;
+  }
+  .subTItuloHero {
+    font-size: 1.8rem;
+  }
+  .boton .botonHero {
+    font-size: 1.7rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 2.2rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.8rem;
+  }
+  .tituloComentario {
+    font-size: 2rem;
+  }
+  .subtituloComentario {
+    font-size: 1.8rem;
+  }
+  .contenedorFila1 h2 {
+    font-size: 1.6rem;
+  }
+  .contenedorFila1 p {
+    font-size: 1.5rem;
+  }
+  .formulario label {
+    font-size: 1.4rem;
+  }
+  .contenedor {
+    width: 80%;
+    height: 850px;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 500px) {
+  .jumboTitulo {
+    font-size: 2.2rem;
+  }
+  .jumboP {
+    font-size: 1.6rem;
+  }
+  .boton .btn {
+    font-size: 1.5rem;
+  }
+  .collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .tituloHero {
+    font-size: 1.8rem;
+  }
+  .subTItuloHero {
+    font-size: 1.5rem;
+  }
+  .boton .botonHero {
+    font-size: 1.5rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 1.8rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.5rem;
+  }
+  .tituloComentario {
+    font-size: 1.8rem;
+  }
+  .subtituloComentario {
+    font-size: 1.3rem;
+  }
+  .contenedorFila1 h2 {
+    font-size: 1.2rem;
+  }
+  .contenedorFila1 p {
+    font-size: 1.2rem;
+  }
+  .formulario label {
+    font-size: 1.1rem;
+  }
+  .contenedor {
+    width: 80%;
+    height: 800px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .navTitulo {
+    font-size: 0.6rem;
+    width: 5rem;
+  }
+  .logo {
+    width: 0.8rem;
+  }
+  .jumboTitulo {
+    font-size: 1.5rem;
+  }
+  .jumboP {
+    font-size: 1.2rem;
+  }
+  .boton .btn {
+    font-size: 1.2rem;
+  }
+  .columnaTexto h3 {
+    font-size: 1.7rem;
+  }
+  .columnaTexto p {
+    font-size: 1.3rem;
+  }
+  .tituloHero {
+    font-size: 1.4rem;
+  }
+  .subTItuloHero {
+    font-size: 1.3rem;
+  }
+  .boton .botonHero {
+    font-size: 1.3rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 1.4rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 1.8rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.5rem;
+  }
+  .tituloComentario {
+    font-size: 1.2rem;
+  }
+  .subtituloComentario {
+    font-size: 1.05rem;
+  }
+  .contenedorFila1 h2 {
+    font-size: 1.1rem;
+  }
+  .contenedorFila1 p {
+    font-size: 1rem;
+  }
+  .formulario label {
+    font-size: 0.8rem;
+  }
+  .contenedor {
+    width: 90%;
+    height: 800px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
