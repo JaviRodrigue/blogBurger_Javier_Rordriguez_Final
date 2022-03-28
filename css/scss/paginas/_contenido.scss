@@ -1,14 +1,7 @@
 // -------------------------Reseñas de Hamburguesas - Inicio-------------------------------
 .hero{
     background-image: url(/css/imagenes/Carrusel1.jpg);
-    min-height: 650px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include principio;
 }
 .tituloHero{
     color:$color-letra;
@@ -77,14 +70,7 @@
 // -------------------------Reseñas de Locales - Inicio-------------------------------
 .inicioHamburgueseria{
     background-image: url(/css/imagenes/Carrusel2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include principio;
 }
 .tituloHamburgueseria{
     color:$color-letra;

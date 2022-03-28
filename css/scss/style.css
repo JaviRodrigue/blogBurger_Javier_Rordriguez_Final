@@ -378,10 +378,10 @@ p {
 
 .inicioHamburgueseria {
   background-image: url(/css/imagenes/Carrusel2.jpg);
-  background-position: center;
-  background-size: cover;
+  min-height: 650px;
   background-repeat: no-repeat;
-  height: 650px;
+  background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
